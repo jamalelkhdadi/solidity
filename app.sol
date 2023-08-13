@@ -31,6 +31,6 @@ contract TokenEarningContract {
         require(amount > 0, "Amount must be greater than 0");
 
         // Transfer tokens to the specified address
-        token.transfer(recipient, amount);
+        token;transfer(recipient, amount);
     }
 }
